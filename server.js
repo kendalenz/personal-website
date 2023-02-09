@@ -1,23 +1,6 @@
-const Sequelize = require('sequelize');
-const {STRING} = Sequelize;
-const conn = new Sequelize(process.env.DATABASE_URL || 'postgres://localhost/kendal_db');
-
-const User = conn.define('user', {
-    firstName: {
-        type: STRING,
-        allowNull: false,
-        validate: {
-            notEmpty: true
-        }
-    },
-    lastName: {
-        type: STRING,
-        allowNull: false,
-        validate: {
-            notEmpty: true
-        }
-    }
-});
+const { User, conn } = require('./db');
+const express = require('express');
+const app = express();
 
 const setup = async()=> {
     try {
@@ -25,7 +8,9 @@ const setup = async()=> {
         await conn.sync({force: true});
         await Promise.all([
             User.create({firstName: 'Kendal', lastName: 'Enz'})
-        ])
+        ]);
+        const port = process.env.PORT || 3000;
+        app.listen(port, ()=> console.log(`listening on port ${port}`))
     }
     catch(err){
         console.log(err)
