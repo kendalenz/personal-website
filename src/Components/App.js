@@ -5,7 +5,7 @@ import Home from './Home';
 const App = () => {
     return (
         <div>
-            <nav>
+            <nav class='navbar'>
                 <Link to='/'>
                     <h2>Kendal Enz</h2>
                 </Link>
