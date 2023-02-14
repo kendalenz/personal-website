@@ -1,3 +1,7 @@
+body {
+    text-align: center;
+}
+
 a {
     text-decoration: none;
 }
@@ -18,4 +22,10 @@ a:hover {
 
   .hero-text {
     text-align: center;
+  }
+
+  #hero-button {
+    background-color: black;
+    border-color: white;
+
   }
