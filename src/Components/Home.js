@@ -10,7 +10,12 @@ const Home = () => {
                     <h2 class='h2'>Software Engineer</h2>
                     {/* <form> */}
                         <button class="btn btn-primary my-4" id='hero-button' onClick={"window.location.href='/#contact-me"}>Contact Me</button>
+                    {/* //https://kendal-enz.onrender.com/#/#contact-me */}
                     {/* </form> */}
+
+                    <form action="https://kendal-enz.onrender.com/#/#contact-me">
+         <button type="submit">Click me</button>
+      </form>
                 </div> 
             </div>
         </section>

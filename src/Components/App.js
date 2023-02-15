@@ -6,7 +6,7 @@ import Home from './Home';
 const App = () => {
     return (
         <div>
-            <nav class='navbar'>
+            <nav class='navbar d-flex flex-row flex-wrap'>
                 <div class="d-flex justify-content-start">
                     <Link class='link-dark mx-4' to='/'>
                         <h5>Kendal Enz</h5>
