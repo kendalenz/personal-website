@@ -54,7 +54,7 @@ const Home = () => {
         <hr></hr>
         <section id='projects'>
             <h1>Projects</h1>
-            <div class='d-flex flex-row justify-content-center'>
+            <div class='d-flex flex-row flex-wrap justify-content-center'>
             <div class="card mx-4 my-4">
                 <img src="../static/Goji.png" class="card-img-top" alt="..."></img>
                 <div class="card-body">
