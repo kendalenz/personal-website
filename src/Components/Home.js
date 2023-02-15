@@ -16,7 +16,7 @@ const Home = () => {
         </section>
         <section id='about-me'>
             <div class='mx-4 my-4'>
-                <h1>About Me</h1>
+                <h1 class='mx-4 my-4'>About Me</h1>
                 <p>
                     Hello! I'm a fullstack software engineer with an eye for design, and I love crafting beautiful websites. My background in journalsim and creative writing has given me excellent communications skills, and my work as a project manager has allowed me to develope exceptional organizational and time management skills. I'm based in Brooklyn, NY. 
                 </p>
@@ -25,7 +25,7 @@ const Home = () => {
         <hr></hr>
         <section id='competencies'>
             <h1>Competencies</h1>
-            <ul>
+            <ul class='mx-4 my-4'>
                 JavaScript
                 <br></br>
                 React/Redux
@@ -72,7 +72,7 @@ const Home = () => {
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary project-button">Go somewhere</a>
+                    <a href="#" class="btn btn-primary project-button">Visit site</a>
                 </div>
             </div>
             <div class="card mx-4 my-4">
@@ -80,7 +80,7 @@ const Home = () => {
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary project-button">Go somewhere</a>
+                    <a href="#" class="btn btn-primary project-button">Visit site</a>
                 </div>
             </div>
             </div>
