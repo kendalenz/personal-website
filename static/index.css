@@ -27,5 +27,9 @@ a:hover {
   #hero-button {
     background-color: black;
     border-color: white;
+  }
 
+  hr {
+    width: 90%;
+    margin: 20 auto;
   }

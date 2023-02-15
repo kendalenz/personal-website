@@ -13,7 +13,7 @@ const Home = () => {
                 </div> 
             </div>
         </section>
-        <section>
+        <section id='about-me'>
             <div class='mx-4 my-4'>
                 <h1>About Me</h1>
                 <p>
@@ -21,7 +21,8 @@ const Home = () => {
                 </p>
             </div>
         </section>
-        <section>
+        <hr></hr>
+        <section id='competencies'>
             <h1>Competencies</h1>
             <ul>
                 JavaScript
@@ -48,6 +49,14 @@ const Home = () => {
                 <br></br>
                 Github
             </ul>
+        </section>
+        <hr></hr>
+        <section>
+            <h1>Projects</h1>
+        </section>
+        <hr></hr>
+        <section>
+            <h1>Contact Me</h1>
         </section>
         </div>
     )
