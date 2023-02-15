@@ -53,29 +53,31 @@ const Home = () => {
         <hr></hr>
         <section>
             <h1>Projects</h1>
-            <div class="card">
+            <div class='d-flex flex-row justify-content-center'>
+            <div class="card mx-4 my-4">
                 <img src="..." class="card-img-top" alt="..."></img>
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary project-button">Go somewhere</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card mx-4 my-4">
                 <img src="..." class="card-img-top" alt="..."></img>
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary project-button">Go somewhere</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card mx-4 my-4">
                 <img src="..." class="card-img-top" alt="..."></img>
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary project-button">Go somewhere</a>
                 </div>
+            </div>
             </div>
         </section>
         <hr></hr>

@@ -37,3 +37,8 @@ a:hover {
   .card {
     width: 18rem;
   }
+
+  .project-button {
+    background-color: black;
+    border-color: black;
+  }
