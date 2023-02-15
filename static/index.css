@@ -42,3 +42,11 @@ a:hover {
     background-color: black;
     border-color: black;
   }
+
+  .social-icon {
+    color:#303030;
+  }
+
+  .card-text {
+    font-size: 10px;
+  }

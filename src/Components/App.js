@@ -19,10 +19,10 @@ const App = () => {
                     <HashLink class='link-dark mx-4' to='/#competencies'>
                         <h6>Competencies</h6>
                     </HashLink>
-                    <HashLink class='link-dark mx-4'>
+                    <HashLink class='link-dark mx-4' to='/#projects'>
                         <h6>Projects</h6>
                     </HashLink>
-                    <HashLink class='link-dark mx-4'>
+                    <HashLink class='link-dark mx-4' to='/#contact-me'>
                         <h6>Contact</h6>
                     </HashLink>
                     </div>
