@@ -18,11 +18,12 @@ const Home = () => {
             <div class="container">
                 <h3 class='mx-4 my-4 align-center'>About Me</h3>
                 <div class="row">
-                    <div class="col-sm-8">
+                    <div class="col-sm">
                         <img src="/static/headshot.jpg" id='headshot'></img>
                     </div>
                     <div class="col-sm float-left" id='about-me-text'>
-                        Hello! I'm a fullstack software engineer with an eye for design, and I love crafting beautiful websites. My background in journalsim and creative writing has given me excellent communications skills, and my work as a project manager has allowed me to develope exceptional organizational and time management skills. I'm based in Brooklyn, NY. 
+                        <p>Hello! I'm a fullstack software engineer with an eye for design, and I love crafting beautiful websites. My background in journalsim and creative writing has given me excellent communications skills, and my work as a project manager has allowed me to develope exceptional organizational and time management skills.</p>  
+                        <p>In my free time, I enjoy long runs through the city, reading in the park and writing short stories. I'm based in Brooklyn, New York.</p>
                     </div>
                 </div>
             </div>
