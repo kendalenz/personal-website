@@ -76,11 +76,11 @@ const Home = () => {
                 </div>
             </div>
             <div class="card mx-4 my-4">
-                <img src="..." class="card-img-top" alt="..."></img>
+                <img src="../static/Wolfe-Books.png" class="card-img-top" alt="..."></img>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Wolfe Books</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary project-button">Visit site</a>
+                    <a href="#" class="btn btn-primary project-button">View code</a>
                 </div>
             </div>
             <div class="card mx-4 my-4">
