@@ -1,5 +1,13 @@
-body {
+section {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.align-center {
     text-align: center;
+}
+.about-me-text {
+    text-align: left;
 }
 
 a {
@@ -24,14 +32,18 @@ a:hover {
     text-align: center;
   }
 
-  #hero-button {
+  /* #hero-button {
     background-color: black;
     border-color: white;
-  }
+  } */
 
   hr {
     width: 90%;
     margin: 20 auto;
+  }
+
+  #headshot {
+    max-width: 90%;
   }
 
   .card {
@@ -50,18 +62,3 @@ a:hover {
   .card-text {
     font-size: 10px;
   }
-
-  /* .card-columns {
-    @include media-breakpoint-only(xl) {
-      column-count: 5;
-    }
-    @include media-breakpoint-only(lg) {
-      column-count: 4;
-    }
-    @include media-breakpoint-only(md) {
-      column-count: 3;
-    }
-    @include media-breakpoint-only(sm) {
-      column-count: 2;
-    }
-  } */

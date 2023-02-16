@@ -3,34 +3,36 @@ import React from "react";
 const Home = () => {
     return (
         <div>
-        <section class="bg-image container-fluid d-flex "> 
+
+        <section class="bg-image container-fluid d-flex"> 
             <div class="align-items-center container-fluid d-flex justify-content-center">
                 <div class='hero-text text-white'>
                     <h1 class='h1'>Kendal Enz</h1>
                     <h2 class='h2'>Software Engineer</h2>
-                    {/* <form> */}
-                        <button class="btn btn-primary my-4" id='hero-button' onClick={"window.location.href='/#contact-me"}>Contact Me</button>
-                    {/* //https://kendal-enz.onrender.com/#/#contact-me */}
-                    {/* </form> */}
-
-                    <form action="https://kendal-enz.onrender.com/#/#contact-me">
-         <button type="submit">Click me</button>
-      </form>
+                    {/* <button class="btn btn-primary my-4" id='hero-button'>Contact Me</button> */}
                 </div> 
             </div>
         </section>
-        <section id='about-me'>
-            <div class='mx-4 my-4'>
-                <h1 class='mx-4 my-4'>About Me</h1>
-                <p>
-                    Hello! I'm a fullstack software engineer with an eye for design, and I love crafting beautiful websites. My background in journalsim and creative writing has given me excellent communications skills, and my work as a project manager has allowed me to develope exceptional organizational and time management skills. I'm based in Brooklyn, NY. 
-                </p>
+
+        <section  id='about-me'>
+            <div class="container">
+                <h3 class='mx-4 my-4 align-center'>About Me</h3>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <img src="/static/headshot.jpg" id='headshot'></img>
+                    </div>
+                    <div class="col-sm float-left" id='about-me-text'>
+                        Hello! I'm a fullstack software engineer with an eye for design, and I love crafting beautiful websites. My background in journalsim and creative writing has given me excellent communications skills, and my work as a project manager has allowed me to develope exceptional organizational and time management skills. I'm based in Brooklyn, NY. 
+                    </div>
+                </div>
             </div>
         </section>
+
         <hr></hr>
-        <section id='competencies'>
-            <h1>Competencies</h1>
-            <ul class='mx-4 my-4'>
+
+        <section class='align-center' id='competencies'>
+            <h3>Competencies</h3>
+            <p class='mx-4 my-4'>
                 JavaScript
                 <br></br>
                 React/Redux
@@ -54,11 +56,11 @@ const Home = () => {
                 Git
                 <br></br>
                 Github
-            </ul>
+            </p>
         </section>
         <hr></hr>
-        <section id='projects'>
-            <h1>Projects</h1>
+        <section class='align-center' id='projects'>
+            <h3>Projects</h3>
             <div class='d-flex flex-row flex-wrap justify-content-center'>
             <div class="card mx-4 my-4">
                 <img src="../static/Goji.png" class="card-img-top" alt="..."></img>
@@ -91,8 +93,8 @@ const Home = () => {
             </div>
         </section>
         <hr></hr>
-        <section id='contact-me'>
-            <h1>Contact Me</h1>
+        <section class='align-center' id='contact-me'>
+            <h3>Contact Me</h3>
             <div class='d-flex flex-row justify-content-center'>
             <div class='mx-4 my-4'>
             <a class='social-icon' href="https://www.linkedin.com/in/kendalenz/" target='blank'><ion-icon size='large' name="logo-linkedin"></ion-icon></a>
