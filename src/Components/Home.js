@@ -69,28 +69,30 @@ const Home = () => {
                     <h5 class="card-title">Goji</h5>
                     <div >
                     <p>A web app for dog walking.</p>
-                    <p class="card-text">Worked on a team of four to build app from wireframe to deployment.
-                    Responsible for building user and pet profile pages using JavaScript, RESTful APIs, React/Redux, Sequelize, PostgreSQL, Express, CSS and HTML5, allowing users to create, update and delete profiles.</p>
+                    <p class="card-text">Worked on a team of four to build app from wireframe to deployment. Responsible for building user and pet profile pages using JavaScript, RESTful APIs, React/Redux, Sequelize, PostgreSQL, Express, CSS and HTML5, allowing users to create, update and delete profiles.</p>
                     </div>
                     <a href="https://goji-rnfn.onrender.com/" class="btn btn-primary project-button mt-2">Visit site</a>
                 </div>
             </div>
-            <div class="card mx-4 my-4">
-                <img src="../static/Wolfe-Books.png" class="card-img-top" alt="..."></img>
+            <div class="card mx-4 my-4 ">
+                <img src="../static/wolfe-books-5.jpg" class="card-img-top" alt="..."></img>
                 <div class="card-body">
                     <h5 class="card-title">Wolfe Books</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary project-button">View code</a>
+                    <div>
+                    <p>An e-commerce site.</p>
+                    <p class="card-text">Group project in which I was responsible for overall site design using vanilla CSS and HTML5. Designed and implemented store and product detail pages using JavaScript, RESTful APIs, React/Redux, Sequelize, PostgreSQL and Express, allowing users to sort, search and view product information.</p>
+                    </div>
+                    <a href="https://github.com/kendalenz/wolfe-books-project" class="btn btn-primary project-button mt-2">View code</a>
                 </div>
             </div>
-            <div class="card mx-4 my-4">
+            {/* <div class="card mx-4 my-4">
                 <img src="..." class="card-img-top" alt="..."></img>
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-primary project-button">Visit site</a>
                 </div>
-            </div>
+            </div> */}
             </div>
         </section>
         <hr></hr>

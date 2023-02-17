@@ -62,3 +62,9 @@ a:hover {
   .card-text {
     font-size: 10px;
   }
+
+  .btn-primary:hover {
+    background-color:#303030;
+    border-color: #303030;
+    text-decoration: none;
+  }
