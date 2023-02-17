@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
     return (
-        <div>
+        <div id='home-page'>
 
         <section class="bg-image container-fluid d-flex"> 
             <div class="align-items-center container-fluid d-flex justify-content-center">
@@ -19,7 +19,7 @@ const Home = () => {
                 <h3 class='mx-4 my-4 align-center'>About Me</h3>
                 <div class="row">
                     <div class="col-sm">
-                        <img src="/static/headshot.jpg" id='headshot'></img>
+                        <img src="/static/headshot.jpg" class='md-4' id='headshot'></img>
                     </div>
                     <div class="col-sm float-left" id='about-me-text'>
                         <p>Hello! I'm a fullstack software engineer with an eye for design, and I love crafting beautiful websites. My background in journalsim and creative writing has given me excellent communications skills, and my work as a project manager has allowed me to develope exceptional organizational and time management skills.</p>  

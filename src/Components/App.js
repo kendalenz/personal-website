@@ -6,27 +6,54 @@ import Home from './Home';
 const App = () => {
     return (
         <div>
-            <nav class='navbar d-flex flex-row flex-wrap'>
-                <div class="d-flex justify-content-start">
-                    <Link class='link-dark mx-4' to='/'>
-                        <h5>Kendal Enz</h5>
+            <nav class='navbar navbar-expand-sm'>
+                {/* d-flex flex-row flex-wrap  */}
+                {/* <div class="d-flex justify-content-start"> */}
+                    <Link 
+                        class='navbar-brand link-dark mx-4' 
+                        to='/'>
+                        Kendal Enz
                     </Link>
+                {/* </div> */}
+                <button 
+                    type='button' 
+                    data-bs-toggle='collapse' 
+                    data-bs-target='#navbarNav' 
+                    class='navbar-toggler'
+                    aria-controls='navbarNav'
+                    aria-expanded='false'
+                    aria-label='Toggle navigation'
+                >
+                    <span class='navbar-toggler-icon'></span>
+                </button>
+                <div 
+                    class="collapse navbar-collapse mx-4 justify-content-end" 
+                    //d-flex justify-content-between
+                    id='navbarNav'>
+                        <ul class='navbar-nav'>
+                            <li class='nav-item'>
+                                <HashLink class='link-dark mx-4' to='/#about-me'>
+                                    About
+                                </HashLink>
+                            </li>
+                            <li class='nav-item'>
+                                <HashLink class='link-dark mx-4' to='/#competencies'>
+                                    Competencies
+                                </HashLink>
+                            </li>
+                            <li class='nav-item'>
+                                <HashLink class='link-dark mx-4' to='/#projects'>
+                                    Projects
+                                </HashLink>
+                            </li>
+                            <li class='nav-item'>
+                                <HashLink class='link-dark mx-4' to='/#contact-me'>
+                                    Contact
+                                </HashLink>
+                            </li>
+                        </ul>
                 </div>
-                <div class="d-flex justify-content-between">
-                    <HashLink class='link-dark mx-4' to='/#about-me'>
-                        <h6>About Me</h6>
-                    </HashLink>
-                    <HashLink class='link-dark mx-4' to='/#competencies'>
-                        <h6>Competencies</h6>
-                    </HashLink>
-                    <HashLink class='link-dark mx-4' to='/#projects'>
-                        <h6>Projects</h6>
-                    </HashLink>
-                    <HashLink class='link-dark mx-4' to='/#contact-me'>
-                        <h6>Contact</h6>
-                    </HashLink>
-                    </div>
-                </nav>
+            </nav>
             <Routes>
                 <Route path='/' element={<Home />} />
             </Routes>
