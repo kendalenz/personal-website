@@ -48,12 +48,14 @@ a:hover {
 
   #headshot {
     max-width: 90%;
+    padding-bottom: 1rem;
   }
 
 
-  @media (min-width: 300px) {
+  /* @media (max-width: 600px) {
     #about-me-text {
       text-align: center;
+      color: blueviolet
     }
     #headshot {
       display: block;
@@ -62,7 +64,7 @@ a:hover {
       padding-bottom: 1rem;
       /* width: 50%; */
     }
-  }
+  } */
 
   /* @include media-breakpoint-up(sm) {
   
