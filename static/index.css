@@ -53,7 +53,7 @@ a:hover {
 
   @media (max-width: 600px) {
     #about-me-text {
-      text-align: center;
+      text-align: justify;
     }
     #headshot {
       display: block;
