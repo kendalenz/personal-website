@@ -9,7 +9,6 @@ const Home = () => {
                     <div class='hero-text text-white'>
                         <h1 class='h1'>Kendal Enz</h1>
                         <h2 class='h2'>Software Engineer</h2>
-                        {/* <button class="btn btn-primary my-4" id='hero-button'>Contact Me</button> */}
                     </div> 
                 </div>
             </section>
@@ -101,24 +100,46 @@ const Home = () => {
 
             <section class='align-center' id='contact-me'>
                 <h3>Contact Me</h3>
+               
                 <div class='d-flex flex-row justify-content-center'>
-                    <div class='mx-4 my-4'>
-                        <a class='social-icon' href="https://www.linkedin.com/in/kendalenz/" target='blank'><ion-icon size='large' name="logo-linkedin"></ion-icon></a>
-                    </div>
-                    <div class='mx-4 my-4'>
-                        <a class='social-icon' href="https://github.com/kendalenz" target='blank'><ion-icon size='large' name="logo-github"></ion-icon></a>
-                    </div>
-                </div>
-                <div>
-                   <form action="https://formsubmit.co/kendal.enz@gmail.com" method="POST">
+                    <form action="https://formsubmit.co/kendal.enz@gmail.com" method="POST">
+                        <div class="row my-4">
+                            <input type='hidden' name='_subject' value='New email!'></input>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Name"></input>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Email"></input>
+                            </div>
+                        </div>
+                        <div class='my-4'> 
+                            <input type="text" class="form-control" placeholder="Subject"></input>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                        </div>
+                        <button class="btn btn-primary my-4">Send</button>
+                    </form>
+
+                   {/* <form action="https://formsubmit.co/kendal.enz@gmail.com" method="POST">
                         <input type='hidden' name='_subject' value='New submission!'></input>
                         <input type="text" name="fname" placeholder='First Name' required></input>
                         <input type="text" name="lname" placeholder='Last Name' required></input>
                         <input type="email" name="email" placeholder='Email Address' required></input>
                         <input type='textarea' name='message' placeholder='Message' required></input>
                         <button type="submit">Send</button>
-                    </form>
+                    </form> */}
                 </div>
+
+                <div class='d-flex flex-row justify-content-center'>
+                    <div class='mx-4 mb-4'>
+                        <a class='social-icon' href="https://www.linkedin.com/in/kendalenz/" target='blank'><ion-icon size='large' name="logo-linkedin"></ion-icon></a>
+                    </div>
+                    <div class='mx-4 mb-4'>
+                        <a class='social-icon' href="https://github.com/kendalenz" target='blank'><ion-icon size='large' name="logo-github"></ion-icon></a>
+                    </div>
+                </div>
+
             </section>
         </div>
     )
