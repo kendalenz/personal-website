@@ -122,9 +122,7 @@ const Home = () => {
                         </div>
 
                         <div class="form-group">
-                            <input class="form-control" rows="3" type='textarea' name='message' placeholder='Message' required></input>
-
-                            {/* <textarea class="form-control" rows="3" placeholder="Message" name='message' required></textarea> */}
+                            <textarea class="form-control" rows="3" type='textarea' name='message' placeholder='Message' required></textarea>
                         </div>
 
                         <button type='submit'class="btn btn-primary my-4">Send</button>
