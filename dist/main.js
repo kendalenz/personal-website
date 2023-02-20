@@ -4168,27 +4168,31 @@ const Home = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     type: "text",
     class: "form-control",
-    placeholder: "Name"
+    placeholder: "Name",
+    required: true
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     type: "text",
     class: "form-control",
-    placeholder: "Email"
+    placeholder: "Email",
+    required: true
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "my-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     type: "text",
     class: "form-control",
-    placeholder: "Subject"
+    placeholder: "Subject",
+    required: true
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "form-group"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("textarea", {
     class: "form-control",
-    id: "exampleFormControlTextarea1",
     rows: "3",
-    placeholder: "Message"
+    placeholder: "Message",
+    required: true
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "submit",
     class: "btn btn-primary my-4"
   }, "Send"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "d-flex flex-row justify-content-center"

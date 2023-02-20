@@ -106,19 +106,19 @@ const Home = () => {
                         <div class="row my-4">
                             <input type='hidden' name='_subject' value='New email!'></input>
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Name"></input>
+                                <input type="text" class="form-control" placeholder="Name" required></input>
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Email"></input>
+                                <input type="text" class="form-control" placeholder="Email" required></input>
                             </div>
                         </div>
                         <div class='my-4'> 
-                            <input type="text" class="form-control" placeholder="Subject"></input>
+                            <input type="text" class="form-control" placeholder="Subject" required></input>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                            <textarea class="form-control" rows="3" placeholder="Message" required></textarea>
                         </div>
-                        <button class="btn btn-primary my-4">Send</button>
+                        <button type='submit'class="btn btn-primary my-4">Send</button>
                     </form>
 
                    {/* <form action="https://formsubmit.co/kendal.enz@gmail.com" method="POST">
