@@ -7,14 +7,11 @@ const App = () => {
     return (
         <div>
             <nav class='navbar navbar-expand-sm'>
-                {/* d-flex flex-row flex-wrap  */}
-                {/* <div class="d-flex justify-content-start"> */}
                     <Link 
                         class='navbar-brand link-dark mx-4' 
                         to='/'>
                         Kendal Enz
                     </Link>
-                {/* </div> */}
                 <button 
                     type='button' 
                     data-bs-toggle='collapse' 
@@ -28,7 +25,6 @@ const App = () => {
                 </button>
                 <div 
                     class="collapse navbar-collapse mx-4 justify-content-end" 
-                    //d-flex justify-content-between
                     id='navbarNav'>
                         <ul class='navbar-nav'>
                             <li class='nav-item'>
