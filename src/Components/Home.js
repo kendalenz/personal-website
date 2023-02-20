@@ -128,15 +128,16 @@ const Home = () => {
                         <button type='submit'class="btn btn-primary my-4">Send</button>
 
                     </form>
-
-                   {/* <form action="https://formsubmit.co/kendal.enz@gmail.com" method="POST">
+ 
+                   <form action="https://formsubmit.co/kendal.enz@gmail.com" method="POST">
                         <input type='hidden' name='_subject' value='New submission!'></input>
                         <input type="text" name="fname" placeholder='First Name' required></input>
                         <input type="text" name="lname" placeholder='Last Name' required></input>
                         <input type="email" name="email" placeholder='Email Address' required></input>
                         <input type='textarea' name='message' placeholder='Message' required></input>
                         <button type="submit">Send</button>
-                    </form> */}
+                    </form> 
+                    
                 </div>
 
                 <div class='d-flex flex-row justify-content-center'>
