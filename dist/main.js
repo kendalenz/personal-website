@@ -4153,6 +4153,8 @@ const Home = () => {
     action: "https://formsubmit.co/kendal.enz@gmail.com",
     method: "POST"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    class: "form-group"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "row my-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     type: "hidden",
@@ -4162,20 +4164,23 @@ const Home = () => {
     class: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     type: "text",
+    name: "name",
     class: "form-control",
     placeholder: "Name",
     required: true
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
-    type: "text",
+    type: "email",
+    name: "email",
     class: "form-control",
     placeholder: "Email",
     required: true
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    class: "my-4"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    class: "form-group my-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     type: "text",
+    name: "subject",
     class: "form-control",
     placeholder: "Subject",
     required: true
@@ -4185,6 +4190,7 @@ const Home = () => {
     class: "form-control",
     rows: "3",
     placeholder: "Message",
+    name: "message",
     required: true
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     type: "submit",
