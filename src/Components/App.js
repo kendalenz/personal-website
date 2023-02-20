@@ -37,11 +37,11 @@ const App = () => {
                                     Competencies
                                 </HashLink>
                             </li>
-                            <li class='nav-item'>
+                            {/* <li class='nav-item'>
                                 <HashLink class='link-dark mx-4' to='/#projects'>
                                     Projects
                                 </HashLink>
-                            </li>
+                            </li> */}
                             <li class='nav-item'>
                                 <HashLink class='link-dark mx-4' to='/#contact-me'>
                                     Contact
