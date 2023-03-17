@@ -59,30 +59,8 @@ const Home = () => {
       <section class='align-center' id='projects'>
         <h3>Projects</h3>
         <div class='d-flex flex-row flex-wrap justify-content-center'>
-            {/* <div class="card mx-4 my-4">
-                <img src="../static/Goji.png" class="card-img-top" alt="..."></img>
-                <div class="card-body">
-                    <h5 class="card-title">Goji</h5>
-                    <div >
-                    <p>A web app for dog walking.</p>
-                    <p class="card-text">Worked on a team of four to build app from wireframe to deployment. Responsible for building user and pet profile pages using JavaScript, RESTful APIs, React/Redux, Sequelize, PostgreSQL, Express, CSS and HTML5, allowing users to create, update and delete profiles.</p>
-                    </div>
-                    <a href="https://goji-rnfn.onrender.com/" class="btn btn-primary project-button mt-2">Visit site</a>
-                </div>
-            </div> */}
-            {/* <div class="card mx-4 my-4 ">
-                <img src="../static/wolfe-books-5.jpg" class="card-img-top" alt="..."></img>
-                <div class="card-body">
-                    <h5 class="card-title">Wolfe Books</h5>
-                    <div>
-                    <p>An e-commerce site.</p>
-                    <p class="card-text">Group project in which I was responsible for overall site design using vanilla CSS and HTML5. Designed and implemented store and product detail pages using JavaScript, RESTful APIs, React/Redux, Sequelize, PostgreSQL and Express, allowing users to sort, search and view product information.</p>
-                    </div>
-                    <a href="https://github.com/kendalenz/wolfe-books-project" class="btn btn-primary project-button mt-2">View code</a>
-                </div>
-            </div> */}
           <div class="card mx-4 my-4">
-            <img src="../static/EvoGym.png" class="card-img-top" alt="..."></img>
+            <img src="../static/EvoGym.png" class="card-img-top h-100 w-auto" alt="..."></img>
             <div class="card-body">
               <h4 class="card-title">EvoGym</h4>
               <p class="card-text">A fitness app.</p>
@@ -90,6 +68,23 @@ const Home = () => {
               <a href="https://github.com/kendalenz/fitness-app" class="btn btn-primary btn-sm project-button mx-2">View code</a>
             </div>
            </div>
+           <div class="card mx-4 my-4">
+            <img src="../static/Goji.png" class="card-img-top h-100 w-auto" alt="..."></img>
+            <div class="card-body">
+              <h4 class="card-title">Goji</h4>
+              <p class="card-text">A web app for dog walking.</p>
+              <a href="https://goji-rnfn.onrender.com/" class="btn btn-primary btn-sm project-button mx-2">Visit site</a>
+              <a href="https://github.com/imlifewilling/capstoneproject-dogwalker" class="btn btn-primary btn-sm project-button mx-2">View code</a>
+            </div>
+          </div>
+          <div class="card mx-4 my-4 ">
+            <img src="../static/wolfe-books-5.jpg" class="card-img-top h-100 w-auto" alt="..."></img>
+            <div class="card-body">
+              <h4 class="card-title">Wolfe Books</h4>
+              <p>An e-commerce site.</p>
+              <a href="https://github.com/kendalenz/wolfe-books-project" class="btn btn-primary btn-sm project-button mt-2">View code</a>
+            </div>
+          </div>
         </div>
       </section>
 
