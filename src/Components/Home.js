@@ -1,68 +1,64 @@
 import React from "react";
 
 const Home = () => {
-    return (
-        <div id='home-page'>
-
-            <section class="bg-image container-fluid d-flex"> 
-                <div class="align-items-center container-fluid d-flex justify-content-center">
-                    <div class='hero-text text-white'>
-                        <h1 class='h1'>Kendal Enz</h1>
-                        <h2 class='h2'>Software Engineer</h2>
-                    </div> 
-                </div>
-            </section>
-
-            <section  id='about-me'>
-                <div class="container">
-                    <h3 class='mx-4 my-4 align-center'>About Me</h3>
-                    <div class="row">
-                        <div class="col-sm">
-                            <img src="/static/headshot.jpg" class='md-4' id='headshot'></img>
-                        </div>
-                        <div class="col-sm float-left" id='about-me-text'>
-                            <p>
-                                Kendal Enz is a fullstack software engineer with a professional background in project management, communications and writing. With an eye for design, she enjoys crafting beautiful experiences for website and application visitors. She holds an MA in Writing with a Concentration in Fiction from Johns Hopkins University, a BA in Communications with a Concentration in Journalism from Hood College and a Certificate of Software Engineering from Fullstack Academy. She is based in Brooklyn, NY. 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <hr></hr>
-
-            <section class='align-center' id='competencies'>
-                <h3>Competencies</h3>
-                <p class='mx-4 my-4'>
-                    JavaScript
-                    <br></br>
-                    React/Redux
-                    <br></br>
-                    Node
-                    <br></br>
-                    Express
-                    <br></br>
-                    PostgreSQL
-                    <br></br>
-                    Sequelize
-                    <br></br>
-                    RESTful APIs
-                    <br></br>
-                    CSS3
-                    <br></br>
-                    HTML5
-                    <br></br>
-                    Bootstrap
-                    <br></br>
-                    Git
-                    <br></br>
-                    Github
-                </p>
-            </section>
-        {/* <hr></hr> */}
-        {/* <section class='align-center' id='projects'>
-            <h3>Projects</h3>
-            <div class='d-flex flex-row flex-wrap justify-content-center'> */}
+  return (
+    <div id='home-page'>
+      <section class="bg-image container-fluid d-flex"> 
+        <div class="align-items-center container-fluid d-flex justify-content-center">
+          <div class='hero-text text-white'>
+            <h1 class='h1'>Kendal Enz</h1>
+            <h2 class='h2'>Software Engineer</h2>
+          </div> 
+        </div>
+      </section>
+      <section  id='about-me'>
+        <div class="container">
+          <h3 class='mx-4 my-4 align-center'>About Me</h3>
+          <div class="row">
+            <div class="col-sm">
+              <img src="/static/headshot.jpg" class='md-4' id='headshot'></img>
+            </div>
+            <div class="col-sm float-left" id='about-me-text'>
+              <p>
+                Kendal Enz is a fullstack software engineer with a professional background in project management, communications and writing. With an eye for design, she enjoys crafting beautiful experiences for website and application visitors. She holds an MA in Writing with a Concentration in Fiction from Johns Hopkins University, a BA in Communications with a Concentration in Journalism from Hood College and a Certificate of Software Engineering from Fullstack Academy. She is based in Brooklyn, NY. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr></hr>
+      <section class='align-center' id='competencies'>
+        <h3>Competencies</h3>
+        <p class='mx-4 my-4'>
+          JavaScript
+          <br></br>
+          React/Redux
+          <br></br>
+          Node.js
+          <br></br>
+          Express
+          <br></br>
+          PostgreSQL
+          <br></br>
+          Sequelize
+          <br></br>
+          RESTful APIs
+          <br></br>
+          CSS3
+          <br></br>
+          HTML5
+          <br></br>
+          Bootstrap
+          <br></br>
+          Git
+          <br></br>
+          Github
+          </p>
+      </section>
+      <hr></hr>
+      <section class='align-center' id='projects'>
+        <h3>Projects</h3>
+        <div class='d-flex flex-row flex-wrap justify-content-center'>
             {/* <div class="card mx-4 my-4">
                 <img src="../static/Goji.png" class="card-img-top" alt="..."></img>
                 <div class="card-body">
@@ -85,16 +81,17 @@ const Home = () => {
                     <a href="https://github.com/kendalenz/wolfe-books-project" class="btn btn-primary project-button mt-2">View code</a>
                 </div>
             </div> */}
-            {/* <div class="card mx-4 my-4">
-                <img src="..." class="card-img-top" alt="..."></img>
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary project-button">Visit site</a>
-                </div>
-            </div> */}
-            {/* </div> */}
-        {/* </section> */}
+          <div class="card mx-4 my-4">
+            <img src="../static/EvoGym.png" class="card-img-top" alt="..."></img>
+            <div class="card-body">
+              <h4 class="card-title">EvoGym</h4>
+              <p class="card-text">A fitness app.</p>
+              <a href="https://fitness-app-ewf.pages.dev/" class="btn btn-primary btn-sm project-button mx-2">Visit site</a>
+              <a href="https://github.com/kendalenz/fitness-app" class="btn btn-primary btn-sm project-button mx-2">View code</a>
+            </div>
+           </div>
+        </div>
+      </section>
 
             <hr></hr>
 
