@@ -2,6 +2,8 @@
 
 This site will eventually host my online portfolio. It was built using JavaScript, React, Express, Bootstrap, CSS and HTML. 
 
+The app was deployed on Render and can be accessed at: https://kendal-enz.onrender.com/. 
+
 ## Features 
 - Mobile responsive
 - Email contact form enabled via FormSubmit
