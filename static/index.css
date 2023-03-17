@@ -29,61 +29,56 @@ a:hover {
     background-attachment: fixed;
   }
 
-  .hero-text {
-    text-align: center;
+.hero-text {
+  text-align: center;
+}
+
+hr {
+  width: 90%;
+  margin: 20 auto;
+}
+
+#headshot {
+  max-width: 90%;
+}
+
+@media (max-width: 600px) {
+  #about-me-text {
+    text-align: justify;
   }
 
-  /* #hero-button {
-    background-color: black;
-    border-color: white;
-  } */
-
-  hr {
-    width: 90%;
-    margin: 20 auto;
+#headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
   }
+}
 
-  #headshot {
-    max-width: 90%;
-  }
+.card {
+  width: 18rem;
+}
 
-  @media (max-width: 600px) {
-    #about-me-text {
-      text-align: justify;
-    }
-    #headshot {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      padding-bottom: 1rem;
-      /* width: 50%; */
-    }
-  }
+.project-button {
+  background-color: black;
+  border-color: black;
+}
 
-  .card {
-    width: 18rem;
-  }
+.social-icon {
+  color:#303030;
+}
 
-  .project-button {
-    background-color: black;
-    border-color: black;
-  }
+.card-text {
+  font-size: 14px;
+}
 
-  .social-icon {
-    color:#303030;
-  }
+.btn-primary {
+  background-color: black;
+  border-color: black;
+}
 
-  .card-text {
-    font-size: 14px;
-  }
-
-  .btn-primary {
-    background-color: black;
-    border-color: black;
-  }
-
-  .btn-primary:hover {
-    background-color:#303030;
-    border-color: #303030;
-    text-decoration: none;
-  }
+.btn-primary:hover {
+  background-color:#303030;
+  border-color: #303030;
+  text-decoration: none;
+}

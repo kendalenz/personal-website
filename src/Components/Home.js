@@ -32,28 +32,32 @@ const Home = () => {
         <p class='mx-4 my-4'>
           JavaScript
           <br></br>
-          React/Redux
+          TypeScript
           <br></br>
           Node.js
           <br></br>
           Express
+          <br></br>
+          React/Redux
+          <br></br>
+          CSS3
+          <br></br>
+          HTML5
+          <br></br>
+          Tailwind
+          <br></br>
+          Bootstrap
           <br></br>
           PostgreSQL
           <br></br>
           Sequelize
           <br></br>
           RESTful APIs
-          <br></br>
-          CSS3
-          <br></br>
-          HTML5
-          <br></br>
-          Bootstrap
-          <br></br>
+         <br></br>
           Git
           <br></br>
           Github
-          </p>
+        </p>
       </section>
       <hr></hr>
       <section class='align-center' id='projects'>
@@ -87,63 +91,42 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-            <hr></hr>
-
-            <section class='align-center' id='contact-me'>
-                <h3>Contact Me</h3>
-               
-                <div class='d-flex flex-row justify-content-center'>
-
-                    <form action="https://formsubmit.co/kendal.enz@gmail.com" method="POST">
-
-                        <div class='form-group'>
-                            <div class="row my-4">
-                                <input type='hidden' name='_subject' value='New email!'></input>
-                                <div class="col">
-                                    <input type="text" name='name' class="form-control" placeholder="Name" required></input>
-                                </div>
-                                <div class="col">
-                                    <input type="email" name='email' class="form-control" placeholder="Email" required></input>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class='form-group my-4'>
-                            <input type="text" name='subject' class="form-control" placeholder="Subject" required></input>
-                        </div>
-
-                        <div class="form-group">
-                            <textarea class="form-control" rows="3" type='textarea' name='message' placeholder='Message' required></textarea>
-                        </div>
-
-                        <button type='submit'class="btn btn-primary my-4">Send</button>
-
-                    </form>
- 
-                   {/* <form action="https://formsubmit.co/kendal.enz@gmail.com" method="POST">
-                        <input type='hidden' name='_subject' value='New submission!'></input>
-                        <input type="text" name="fname" placeholder='First Name' required></input>
-                        <input type="text" name="lname" placeholder='Last Name' required></input>
-                        <input type="email" name="email" placeholder='Email Address' required></input>
-                        <input type='textarea' name='message' placeholder='Message' required></input>
-                        <button type="submit">Send</button>
-                    </form>  */}
-
+      <hr></hr>
+      <section class='align-center' id='contact-me'>
+        <h3>Contact Me</h3>
+        <div class='d-flex flex-row justify-content-center'>
+          <form action="https://formsubmit.co/kendal.enz@gmail.com" method="POST">
+            <div class='form-group'>
+              <div class="row my-4">
+                <input type='hidden' name='_subject' value='New email!'></input>
+                <div class="col">
+                  <input type="text" name='name' class="form-control" placeholder="Name" required></input>
                 </div>
-
-                <div class='d-flex flex-row justify-content-center'>
-                    <div class='mx-4 mb-4'>
-                        <a class='social-icon' href="https://www.linkedin.com/in/kendalenz/" target='blank'><ion-icon size='large' name="logo-linkedin"></ion-icon></a>
-                    </div>
-                    <div class='mx-4 mb-4'>
-                        <a class='social-icon' href="https://github.com/kendalenz" target='blank'><ion-icon size='large' name="logo-github"></ion-icon></a>
-                    </div>
+                <div class="col">
+                  <input type="email" name='email' class="form-control" placeholder="Email" required></input>
                 </div>
-
-            </section>
+              </div>
+            </div>
+            <div class='form-group my-4'>
+              <input type="text" name='subject' class="form-control" placeholder="Subject" required></input>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="3" type='textarea' name='message' placeholder='Message' required></textarea>
+            </div>
+            <button type='submit'class="btn btn-primary my-4">Send</button>
+          </form>
         </div>
-    )
+        <div class='d-flex flex-row justify-content-center'>
+          <div class='mx-4 mb-4'>
+            <a class='social-icon' href="https://www.linkedin.com/in/kendalenz/" target='blank'><ion-icon size='large' name="logo-linkedin"></ion-icon></a>
+          </div>
+          <div class='mx-4 mb-4'>
+            <a class='social-icon' href="https://github.com/kendalenz" target='blank'><ion-icon size='large' name="logo-github"></ion-icon></a>
+          </div>
+        </div>
+      </section>
+    </div>
+  )
 };
 
 export default Home;
