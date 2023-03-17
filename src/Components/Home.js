@@ -20,7 +20,7 @@ const Home = () => {
             </div>
             <div class="col-sm float-left" id='about-me-text'>
               <p>
-                Kendal Enz is a fullstack software engineer with a professional background in project management, communications and writing. With an eye for design, she enjoys crafting beautiful experiences for website and application visitors. She holds an MA in Writing with a Concentration in Fiction from Johns Hopkins University, a BA in Communications with a Concentration in Journalism from Hood College and a Certificate of Software Engineering from Fullstack Academy. She is based in Brooklyn, NY. 
+                Kendal Enz is a fullstack software engineer with a professional background in project management, communications and writing. With an eye for design, she enjoys crafting beautiful experiences for website and application visitors. She holds an MA in Writing with a Concentration in Fiction from Johns Hopkins University, a BA in Communications with a Concentration in Journalism from Hood College and a Certificate of Software Engineering from Fullstack Academy. She is based in Brooklyn, NY, and spends her free time going on long runs through the city. 
               </p>
             </div>
           </div>
@@ -85,8 +85,8 @@ const Home = () => {
             <img src="../static/wolfe-books-5.jpg" class="card-img-top h-100 w-auto" alt="..."></img>
             <div class="card-body">
               <h4 class="card-title">Wolfe Books</h4>
-              <p>An e-commerce site.</p>
-              <a href="https://github.com/kendalenz/wolfe-books-project" class="btn btn-primary btn-sm project-button mt-2">View code</a>
+              <p class="card-text">An e-commerce site.</p>
+              <a href="https://github.com/kendalenz/wolfe-books-project" class="btn btn-primary btn-sm project-button mx-2">View code</a>
             </div>
           </div>
         </div>
