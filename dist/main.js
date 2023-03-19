@@ -4322,7 +4322,7 @@ const Projects = () => {
     class: "card mx-4 my-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "../static/EvoGym.png",
-    class: "card-img-top h-100 w-auto",
+    class: "card-img-top",
     alt: "..."
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "card-body"
@@ -4340,7 +4340,7 @@ const Projects = () => {
     class: "card mx-4 my-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "../static/Goji.png",
-    class: "card-img-top h-100 w-auto",
+    class: "card-img-top",
     alt: "..."
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "card-body"
@@ -4358,7 +4358,7 @@ const Projects = () => {
     class: "card mx-4 my-4 "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "../static/wolfe-books-5.jpg",
-    class: "card-img-top h-100 w-auto",
+    class: "card-img-top",
     alt: "..."
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "card-body"
