@@ -6,40 +6,40 @@ import Home from './Home';
 const App = () => {
   return (
     <div>
-      <nav class='navbar navbar-expand-sm'>
-        <Link class='navbar-brand link-dark mx-4' to='/'>
+      <nav className='navbar navbar-expand-sm'>
+        <Link className='navbar-brand link-dark mx-4' to='/'>
             Kendal Enz
         </Link>
         <button 
           type='button' 
           data-bs-toggle='collapse' 
           data-bs-target='#navbarNav' 
-          class='navbar-toggler'
+          className='navbar-toggler'
           aria-controls='navbarNav'
           aria-expanded='false'
           aria-label='Toggle navigation'
         >
-          <span class='navbar-toggler-icon'></span>
+          <span className='navbar-toggler-icon'></span>
         </button>
-        <div id='navbarNav' class="collapse navbar-collapse mx-4 justify-content-end">
-          <ul class='navbar-nav'>
-            <li class='nav-item'>
-              <HashLink class='link-dark mx-4' to='/#about-me'>
+        <div id='navbarNav' className="collapse navbar-collapse mx-4 justify-content-end">
+          <ul className='navbar-nav'>
+            <li className='nav-item'>
+              <HashLink className='link-dark mx-4' to='/#about-me'>
                 About
               </HashLink>
             </li>
-            <li class='nav-item'>
-              <HashLink class='link-dark mx-4' to='/#competencies'>
+            <li className='nav-item'>
+              <HashLink className='link-dark mx-4' to='/#competencies'>
                 Competencies
               </HashLink>
             </li>
-            <li class='nav-item'>
-              <HashLink class='link-dark mx-4' to='/#projects'>
+            <li className='nav-item'>
+              <HashLink className='link-dark mx-4' to='/#projects'>
                 Projects
               </HashLink>
             </li>
-            <li class='nav-item'>
-              <HashLink class='link-dark mx-4' to='/#contact-me'>
+            <li className='nav-item'>
+              <HashLink className='link-dark mx-4' to='/#contact-me'>
                 Contact
               </HashLink>
             </li>

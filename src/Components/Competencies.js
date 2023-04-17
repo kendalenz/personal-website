@@ -4,7 +4,7 @@ const Competencies = () => {
     return (
       <div>
         <h3>Competencies</h3>
-        <p class='mx-4 my-4'>
+        <p className='mx-4 my-4'>
           JavaScript
           <br></br>
           TypeScript
