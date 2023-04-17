@@ -7,11 +7,11 @@ import Projects from "./Projects";
 const Home = () => {
   return (
     <div id='home-page'>
-      <section class="bg-image container-fluid d-flex"> 
-        <div class="align-items-center container-fluid d-flex justify-content-center">
-          <div class='hero-text text-white'>
-            <h1 class='h1'>Kendal Enz</h1>
-            <h2 class='h2'>Software Engineer</h2>
+      <section className="bg-image container-fluid d-flex"> 
+        <div className="align-items-center container-fluid d-flex justify-content-center">
+          <div className='hero-text text-white'>
+            <h1 className='h1'>Kendal Enz</h1>
+            <h2 className='h2'>Software Engineer</h2>
           </div> 
         </div>
       </section>
@@ -19,15 +19,15 @@ const Home = () => {
         <About />
       </section>
       <hr></hr>
-      <section class='align-center' id='competencies'>
+      <section className='align-center' id='competencies'>
         <Competencies />
       </section>
       <hr></hr>
-      <section class='align-center' id='projects'>
+      <section className='align-center' id='projects'>
         <Projects />
       </section>
       <hr></hr>
-      <section class='align-center' id='contact-me'>
+      <section className='align-center' id='contact-me'>
         <Contact />
       </section>
     </div>
