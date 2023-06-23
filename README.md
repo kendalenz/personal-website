@@ -14,6 +14,6 @@ After you clone this repo to your desktop, go to its root directory and run npm 
 
 Once the dependencies are installed, you can npm run start:dev to start the application. You will then be able to access it at localhost:3003.
 
-##Support My Work
+## Support My Work
 
 If you find my code useful, please consider buying me a coffee: https://www.buymeacoffee.com/kendalenz. 
