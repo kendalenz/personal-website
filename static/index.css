@@ -82,3 +82,7 @@ hr {
   border-color: #303030;
   text-decoration: none;
 }
+
+.card-img {
+  height: 10rem;
+}
