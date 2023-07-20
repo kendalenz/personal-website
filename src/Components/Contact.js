@@ -5,7 +5,7 @@ const Contact = () => {
     <div>
       <h3>Contact Me</h3>
         <div className='d-flex flex-row justify-content-center'>
-          <form action='https://formsubmit.co/kendal.enz@gmail.com' method="POST">
+          <form action='https://formsubmit.co/c9131e5bb6c78e0f59d5fbbb88445f73' method="POST">
             <div className='form-group'>
               <div className='row my-4'>
                 <input type='hidden' name='_subject' value='New email!'></input>
