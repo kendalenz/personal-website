@@ -4350,6 +4350,24 @@ const Projects = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "card mx-4 my-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: "../static/elysium.png",
+    className: "card-img-top",
+    alt: "..."
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-body"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
+    className: "card-title"
+  }, "Elysium"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "card-text"
+  }, "An e-commerce site."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://earthen-foods.onrender.com/",
+    className: "btn btn-primary btn-sm project-button mx-2"
+  }, "Visit site"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://github.com/kendalenz/elysium",
+    className: "btn btn-primary btn-sm project-button mx-2"
+  }, "View code"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card mx-4 my-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "../static/EvoGym.png",
     className: "card-img-top",
     alt: "..."
@@ -4359,7 +4377,7 @@ const Projects = () => {
     className: "card-title"
   }, "EvoGym"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "card-text"
-  }, "A fitness app."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, "A fitness web app."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://fitness-app-ewf.pages.dev/",
     className: "btn btn-primary btn-sm project-button mx-2"
   }, "Visit site"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
@@ -4382,21 +4400,6 @@ const Projects = () => {
     className: "btn btn-primary btn-sm project-button mx-2"
   }, "Visit site"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://github.com/imlifewilling/capstoneproject-dogwalker",
-    className: "btn btn-primary btn-sm project-button mx-2"
-  }, "View code"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "card mx-4 my-4 "
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "../static/wolfe-books-5.jpg",
-    className: "card-img-top",
-    alt: "..."
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "card-body"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
-    className: "card-title"
-  }, "Wolfe Books"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "card-text"
-  }, "An e-commerce site."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://github.com/kendalenz/wolfe-books-project",
     className: "btn btn-primary btn-sm project-button mx-2"
   }, "View code")))));
 };
