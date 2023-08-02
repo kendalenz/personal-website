@@ -4,6 +4,7 @@ const Projects = () => {
     return (
       <div>
         <h3>Projects</h3>
+        <p className='fw-light'><span className='fw-bold'>Please note:</span> Projects hosted on free instances of Render may initially take up to 90 seconds to load.</p>
         <div className='d-flex flex-row flex-wrap justify-content-center'>
         <div className="card mx-4 my-4">
             <img src="../static/elysium.png" className="card-img-top" alt="..."></img>
