@@ -55,6 +55,27 @@ hr {
   }
 }
 
+#prompts-img {
+  max-width: 50%;
+}
+
+#prompts-text {
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  #prompts-text {
+    text-align: justify;
+  }
+}
+
+@media (max-width: 600px) {
+  #prompts-button{
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 .card {
   width: 18rem;
 }

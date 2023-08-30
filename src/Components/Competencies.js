@@ -28,7 +28,9 @@ const Competencies = () => {
           Sequelize
           <br></br>
           RESTful APIs
-         <br></br>
+          <br></br>
+          Vite
+          <br></br>
           Git
           <br></br>
           Github

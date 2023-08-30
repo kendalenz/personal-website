@@ -34,6 +34,11 @@ const App = () => {
               </HashLink>
             </li>
             <li className='nav-item'>
+              <HashLink className='link-dark mx-4' to='/#products'>
+                Products
+              </HashLink>
+            </li>
+            <li className='nav-item'>
               <HashLink className='link-dark mx-4' to='/#projects'>
                 Projects
               </HashLink>
