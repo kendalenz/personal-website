@@ -3,6 +3,7 @@ import About from "./About";
 import Competencies from "./Competencies";
 import Contact from "./Contact";
 import Projects from "./Projects";
+import DownloadPDF from "./PromptsUnleashedPDF";
 
 const Home = () => {
   return (
@@ -21,6 +22,10 @@ const Home = () => {
       <hr></hr>
       <section className='align-center' id='competencies'>
         <Competencies />
+      </section>
+      <hr></hr>
+      <section className='align-center' id='products'>
+        <DownloadPDF />
       </section>
       <hr></hr>
       <section className='align-center' id='projects'>

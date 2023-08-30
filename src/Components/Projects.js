@@ -25,12 +25,12 @@ const Projects = () => {
               </div>
            </div>
            <div className="card mx-4 my-4">
-            <img src="../static/Goji.png" className="card-img-top" alt="..."></img>
+            <img src="../static/gabriel-zapata.png" className="card-img-top mb-2" alt="..."></img>
             <div className="card-body">
-              <h4 className="card-title">Goji</h4>
-              <p className="card-text">A web app for dog walking.</p>
-              <a href="https://goji-rnfn.onrender.com/" className="btn btn-primary btn-sm project-button mx-2">Visit site</a>
-              <a href="https://github.com/imlifewilling/capstoneproject-dogwalker" className="btn btn-primary btn-sm project-button mx-2">View code</a>
+              <h4 className="card-title mt-4">Gabriel Zapata</h4>
+              <p className="card-text">A personl portfolio website.</p>
+              <a href="https://gabriel-website.pages.dev/" className="btn btn-primary btn-sm project-button mx-2">Visit site</a>
+              <a href="https://github.com/kendalenz/gabriel-zapata" className="btn btn-primary btn-sm project-button mx-2">View code</a>
             </div>
           </div>
           {/* <div className="card mx-4 my-4 ">
