@@ -4432,9 +4432,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 const DownloadPDF = () => {
-  const pdfUrl = '../static/prompts-unleashed.pdf'; // Replace with the actual path to your PDF file
-  const pdfFileName = 'prompts-unleashed.pdf'; // Set the name for the downloaded file
-
+  const pdfUrl = '../static/prompts-unleashed.pdf';
+  const pdfFileName = 'prompts-unleashed.pdf';
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
