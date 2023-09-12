@@ -1,9 +1,9 @@
-import React from "react";
-import About from "./About";
-import Competencies from "./Competencies";
-import Contact from "./Contact";
-import Projects from "./Projects";
-import DownloadPDF from "./PromptsUnleashedPDF";
+import React from 'react';
+import About from './About';
+import Competencies from './Competencies';
+import Contact from './Contact';
+import Projects from './Projects';
+import DownloadPDF from './PromptsUnleashedPDF';
 
 const Home = () => {
   return (

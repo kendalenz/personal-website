@@ -35,7 +35,7 @@ const Contact = () => {
              <a className='link-dark' href='https://github.com/kendalenz'>Follow Me on GitHub</a>
             </div>
             <div className='col mb-4'>
-              <a className='link-dark' href="https://www.buymeacoffee.com/kendalenz">Buy Me a Beer</a>
+              <a className='link-dark' href='https://www.buymeacoffee.com/kendalenz'>Buy Me a Beer</a>
             </div>
             <div className='w-100'></div>
             <div className='col mb-4'>

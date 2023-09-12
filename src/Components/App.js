@@ -21,7 +21,7 @@ const App = () => {
         >
           <span className='navbar-toggler-icon'></span>
         </button>
-        <div id='navbarNav' className="collapse navbar-collapse mx-4 justify-content-end">
+        <div id='navbarNav' className='collapse navbar-collapse mx-4 justify-content-end'>
           <ul className='navbar-nav'>
             <li className='nav-item'>
               <HashLink className='link-dark mx-4' to='/#about-me'>
