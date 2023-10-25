@@ -11,7 +11,9 @@ const Home = () => {
       <section className='bg-image container-fluid d-flex'> 
         <div className='align-items-center container-fluid d-flex justify-content-center'>
           <div className='hero-text text-white'>
-            <h1 className='h1'>Kendal Enz</h1>
+            <h1 className='h1 mb-4'>Kendal Enz</h1>
+            <h2 className='h2'>Writer</h2>
+            <h4 className='h4'>and</h4>
             <h2 className='h2'>Software Engineer</h2>
           </div> 
         </div>
