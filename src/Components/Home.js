@@ -8,8 +8,8 @@ import DownloadPDF from './PromptsUnleashedPDF';
 const Home = () => {
   return (
     <div id='home-page'>
-      <section className="bg-image container-fluid d-flex"> 
-        <div className="align-items-center container-fluid d-flex justify-content-center">
+      <section className='bg-image container-fluid d-flex'> 
+        <div className='align-items-center container-fluid d-flex justify-content-center'>
           <div className='hero-text text-white'>
             <h1 className='h1'>Kendal Enz</h1>
             <h2 className='h2'>Software Engineer</h2>
