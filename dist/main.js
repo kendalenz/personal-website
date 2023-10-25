@@ -4364,6 +4364,24 @@ const Projects = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "card mx-4 my-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: "../static/NarrativeGenius.png",
+    className: "card-img-top",
+    alt: "..."
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-body"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
+    className: "card-title"
+  }, "NarrativeGenius"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "card-text"
+  }, "A creative writing AI chatbot."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://narrative-genius.pages.dev/",
+    className: "btn btn-primary btn-sm project-button mx-2"
+  }, "Visit site"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://github.com/kendalenz/narrative-genius",
+    className: "btn btn-primary btn-sm project-button mx-2"
+  }, "View code"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card mx-4 my-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "../static/elysium.png",
     className: "card-img-top",
     alt: "..."
