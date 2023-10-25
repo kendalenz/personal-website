@@ -10,7 +10,7 @@ const About = () => {
           </div>
           <div className='col-sm float-left' id='about-me-text'>
             <p>
-              Kendal Enz is a fullstack software engineer with a professional background in digital content management, communications and writing. With an eye for design, she enjoys crafting beautiful experiences for website visitors. She holds an MA in Writing with a Concentration in Fiction from Johns Hopkins University, a BA in Communications with a Concentration in Journalism from Hood College and a Certificate of Software Engineering from Fullstack Academy. She is based in Brooklyn, NY, and spends her free time going on long runs through the city. 
+              Hi, I'm Kendal Enz. I'm a fullstack software engineer with a background in communications, journalism and creative writing. I enjoy building websites and writing about harnessing the power of AI to assist with coding and writing tasks. I hold an MA in Writing with a Concentration in Fiction from Johns Hopkins University, a BA in Communications with a Concentration in Journalism from Hood College and a Certificate of Software Engineering from Fullstack Academy. I'm based in Brooklyn, NY, and when I'm not working, I enjoy going on long runs through the city.            
             </p>
           </div>
         </div>
