@@ -26,7 +26,7 @@ const Home = () => {
         <Competencies />
       </section>
       <hr></hr>
-      <section className='align-center' id='products'>
+      <section className='align-center' id='books'>
         <DownloadPDF />
       </section>
       <hr></hr>
