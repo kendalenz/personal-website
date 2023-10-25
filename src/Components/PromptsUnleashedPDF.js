@@ -7,9 +7,9 @@ const DownloadPDF = () => {
     return (
 
         <div className='container'>
-          <h3 className='align-center'>Products</h3>
+          <h3 className='align-center'>Books</h3>
           <p className='mb-4'>
-           If you find this content useful, please consider <a href='https://www.buymeacoffee.com/kendalenz' target='blank' className='text-dark text-decoration-underline'>buying Kendal a beer</a>.
+           If you find this content useful, please consider <a href='https://www.buymeacoffee.com/kendalenz' target='blank' className='text-dark text-decoration-underline'>buying me a beer</a>.
           </p>
           <div className='row'>
             <div className='col-sm'>
