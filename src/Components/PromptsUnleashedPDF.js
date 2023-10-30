@@ -21,6 +21,7 @@ const DownloadPDF = () => {
               <p>
               "Prompts Unleashed: A Journey into Prompt Engineering for Junior Software Engineers" invites you to a transformative exploration that bridges the gap between language models and the dynamic realm of coding. Author Kendal Enz recounts a personal odyssey in the world of programming, from a coding bootcamp to the discovery of ChatGPT—an AI companion that ignited a passion for prompt engineering. With real-world examples, this concise e-book unveils the power of well-crafted prompts to tap into the capabilities of language models, enhancing problem-solving skills and fostering deep understanding. Embark on a journey that empowers you to excel in software development, and uncover your true coding potential.
               </p>
+              <div id='payment_options'></div>
               <a href={pdfUrl} download={pdfFileName}>
                 <button className='btn btn-primary my-4' id='prompts-button'>Download E-book</button>
               </a>
