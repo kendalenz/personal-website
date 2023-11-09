@@ -29,7 +29,7 @@ const Contact = () => {
         <div className='container'>
           <div className='row'>
             <div className='col mb-4'>
-              <a href='https://www.linkedin.com/in/kendalenz/' target='blank'>
+              <a href='https://www.linkedin.com/in/kendalenz/' target='blank' aria-label='LinkedIn'>
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0,0,256,256">
                   <g 
                     fill="none" 
@@ -61,7 +61,7 @@ const Contact = () => {
               </a>
             </div>
             <div className='col mb-4'>
-              <a href='https://github.com/kendalenz' target='blank'>
+              <a href='https://github.com/kendalenz' target='blank' aria-label='GitHub'>
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0,0,256,256">
                   <g 
                     fill="#303030" 
@@ -87,7 +87,7 @@ const Contact = () => {
               </a>
             </div>
             <div className='col mb-4'>
-              <a href='https://www.buymeacoffee.com/kendalenz' target='blank'>
+              <a href='https://www.buymeacoffee.com/kendalenz' target='blank' aria-label='Buy Me a Coffee'>
                 <svg 
                   fill="#303030" 
                   viewBox="0 0 24 24" 

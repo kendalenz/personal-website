@@ -4237,7 +4237,8 @@ const Contact = () => {
     className: "col mb-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://www.linkedin.com/in/kendalenz/",
-    target: "blank"
+    target: "blank",
+    "aria-label": "LinkedIn"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     x: "0px",
@@ -4271,7 +4272,8 @@ const Contact = () => {
     className: "col mb-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://github.com/kendalenz",
-    target: "blank"
+    target: "blank",
+    "aria-label": "GitHub"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     x: "0px",
@@ -4301,7 +4303,8 @@ const Contact = () => {
     className: "col mb-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://www.buymeacoffee.com/kendalenz",
-    target: "blank"
+    target: "blank",
+    "aria-label": "Buy Me a Coffee"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
     fill: "#303030",
     viewBox: "0 0 24 24",
