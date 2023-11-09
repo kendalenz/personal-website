@@ -6,7 +6,7 @@ const About = () => {
       <h3 className='mx-4 my-4 align-center'>About Me</h3>
         <div className='row'>
           <div className='col-sm'>
-            <img src='/static/headshot.jpg' alt='Headshot of fullstack engineer Kendal Enz' className='md-4' id='headshot'></img>
+            <img src='/static/headshot-min.jpg' alt='Headshot of fullstack engineer Kendal Enz' className='md-4' id='headshot'></img>
           </div>
           <div className='col-sm float-left' id='about-me-text'>
             <p>

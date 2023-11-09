@@ -4053,7 +4053,7 @@ const About = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-sm"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/static/headshot.jpg",
+    src: "/static/headshot-min.jpg",
     alt: "Headshot of fullstack engineer Kendal Enz",
     className: "md-4",
     id: "headshot"
@@ -4411,7 +4411,7 @@ const Projects = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "card mx-4 my-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "../static/NarrativeGenius.png",
+    src: "../static/NarrativeGenius-min.png",
     className: "card-img-top",
     alt: "..."
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -4429,7 +4429,7 @@ const Projects = () => {
   }, "View code"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "card mx-4 my-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "../static/elysium.png",
+    src: "../static/elysium-min.png",
     className: "card-img-top",
     alt: "..."
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -4447,7 +4447,7 @@ const Projects = () => {
   }, "View code"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "card mx-4 my-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "../static/EvoGym.png",
+    src: "../static/EvoGym-min.png",
     className: "card-img-top",
     alt: "..."
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -4465,7 +4465,7 @@ const Projects = () => {
   }, "View code"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "card mx-4 my-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "../static/gabriel-zapata.png",
+    src: "../static/gabriel-zapata-min.png",
     className: "card-img-top mb-2",
     alt: "..."
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -4521,7 +4521,7 @@ const DownloadPDF = () => {
     href: pdfUrl,
     download: pdfFileName
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/static/PromptsUnleashed.png",
+    src: "/static/PromptsUnleashed-min.png",
     alt: "Prompts Unleashed",
     className: "md-4",
     id: "prompts-img"
