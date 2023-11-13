@@ -21,19 +21,19 @@ const Home = () => {
       <section  id='about-me'>
         <About />
       </section>
-      <hr></hr>
+      <hr className='mx-auto my-4'></hr>
       <section className='align-center' id='competencies'>
         <Competencies />
       </section>
-      <hr></hr>
+      <hr className='mx-auto my-4'></hr>
       <section className='align-center' id='books'>
         <DownloadPDF />
       </section>
-      <hr></hr>
+      <hr className='mx-auto my-4'></hr>
       <section className='align-center' id='projects'>
         <Projects />
       </section>
-      <hr></hr>
+      <hr className='mx-auto my-4'></hr>
       <section className='align-center' id='contact-me'>
         <Contact />
       </section>
