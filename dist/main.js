@@ -4053,7 +4053,7 @@ const About = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-sm"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/static/headshot-min.jpg",
+    src: "/static/headshot.webp",
     alt: "Headshot of fullstack engineer Kendal Enz",
     className: "md-4",
     id: "headshot"
