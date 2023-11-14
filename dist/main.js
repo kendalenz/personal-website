@@ -4422,7 +4422,7 @@ const Projects = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "card mx-4 my-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "../static/NarrativeGenius-min.png",
+    src: "../static/narrative-genius.webp",
     className: "card-img-top",
     alt: "..."
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -4440,7 +4440,7 @@ const Projects = () => {
   }, "View code"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "card mx-4 my-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "../static/elysium-min.png",
+    src: "../static/elysium.webp",
     className: "card-img-top",
     alt: "..."
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -4458,7 +4458,7 @@ const Projects = () => {
   }, "View code"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "card mx-4 my-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "../static/EvoGym-min.png",
+    src: "../static/evo-gym.webp",
     className: "card-img-top",
     alt: "..."
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -4476,7 +4476,7 @@ const Projects = () => {
   }, "View code"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "card mx-4 my-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "../static/gabriel-zapata-min.png",
+    src: "../static/gabriel-zapata.webp",
     className: "card-img-top mb-2",
     alt: "..."
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -4532,7 +4532,7 @@ const DownloadPDF = () => {
     href: pdfUrl,
     download: pdfFileName
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/static/PromptsUnleashed-min.png",
+    src: "/static/prompts-unleashed.webp",
     alt: "Prompts Unleashed",
     className: "md-4",
     id: "prompts-img"

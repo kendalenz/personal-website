@@ -14,7 +14,7 @@ const DownloadPDF = () => {
           <div className='row'>
             <div className='col-sm'>
               <a href={pdfUrl} download={pdfFileName}>
-                <img src='/static/PromptsUnleashed-min.png' alt='Prompts Unleashed' className='md-4' id='prompts-img'></img>
+                <img src='/static/prompts-unleashed.webp' alt='Prompts Unleashed' className='md-4' id='prompts-img'></img>
               </a>
             </div>
             <div className='col-sm float-left' id='prompts-text'>
