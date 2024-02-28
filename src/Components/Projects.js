@@ -37,7 +37,7 @@ const Projects = () => {
             <div className='card-body'>
               <h4 className='card-title mt-4'>Gabriel Zapata</h4>
               <p className='card-text'>A personl portfolio website.</p>
-              <a href='https://gabriel-website.pages.dev/' className='btn btn-primary btn-sm project-button mx-2'>Visit site</a>
+              <a href='https://www.gabriel-zapata.com/' className='btn btn-primary btn-sm project-button mx-2'>Visit site</a>
               <a href='https://github.com/kendalenz/gabriel-zapata' className='btn btn-primary btn-sm project-button mx-2'>View code</a>
             </div>
           </div>

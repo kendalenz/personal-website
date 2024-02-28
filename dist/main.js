@@ -4486,7 +4486,7 @@ const Projects = () => {
   }, "Gabriel Zapata"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "card-text"
   }, "A personl portfolio website."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://gabriel-website.pages.dev/",
+    href: "https://www.gabriel-zapata.com/",
     className: "btn btn-primary btn-sm project-button mx-2"
   }, "Visit site"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://github.com/kendalenz/gabriel-zapata",
